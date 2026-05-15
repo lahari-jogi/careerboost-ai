@@ -1,16 +1,16 @@
-# 🌟 Contributing to Smart Resume Analyzer AI
+# 🌟 Contributing to Smart AI Resume Assistant AI
 
-Thank you for your interest in contributing to **Smart Resume Analyzer AI**! This project aims to revolutionize how resumes are analyzed using advanced AI techniques. Let's make it even better together!
+Thank you for your interest in contributing to **Smart AI Resume Assistant AI**! This project aims to revolutionize how resumes are analyzed using advanced AI techniques. Let's make it even better together!
 
 
 
 <div align="center">
 
-<!--![Smart Resume Analyzer AI](https://via.placeholder.com/300x150?text=Smart+Resume+Analyzer+AI)-->
+<!--![Smart AI Resume Assistant AI](https://via.placeholder.com/300x150?text=Smart+Resume+Analyzer+AI)-->
 
-[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=flat-square)](https://github.com/Hunterdii/Smart-AI-Resume-Analyzer)
-[![Made With Python](https://img.shields.io/badge/Made%20With-Python-blue?style=flat-square&logo=python)](https://github.com/Hunterdii/)
-[![Fork and Star](https://img.shields.io/badge/💜-Fork%20&%20Star%20this%20repo-blueviolet?style=flat-square)](https://github.com/Hunterdii/Smart-AI-Resume-Analyzer)
+[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=flat-square)](https://github.com/Lahari Jogi/CareerBoost-AI)
+[![Made With Python](https://img.shields.io/badge/Made%20With-Python-blue?style=flat-square&logo=python)](https://github.com/Lahari Jogi/)
+[![Fork and Star](https://img.shields.io/badge/💜-Fork%20&%20Star%20this%20repo-blueviolet?style=flat-square)](https://github.com/Lahari Jogi/CareerBoost-AI)
 
 </div>
 
@@ -18,7 +18,7 @@ Thank you for your interest in contributing to **Smart Resume Analyzer AI**! Thi
 
 ## 🛠️ Getting Started
 
-We’re thrilled to have you on board! Here’s how you can get started contributing to **Smart Resume Analyzer AI**:
+We’re thrilled to have you on board! Here’s how you can get started contributing to **Smart AI Resume Assistant AI**:
 
 ### 1. **Fork the Repository**
 
@@ -27,13 +27,13 @@ Click the `Fork` button at the top right corner of this page to create a copy of
 ### 2. **Clone Your Fork**
 
 ```bash
-git clone https://github.com/Hunterdii/Smart-AI-Resume-Analyzer.git
+git clone https://github.com/Lahari Jogi/CareerBoost-AI.git
 ```
 
 ### 3. **Navigate to the Directory**
 
 ```bash
-cd Smart-AI-Resume-Analyzer
+cd CareerBoost-AI
 ```
 
 ### 4. **Create a Branch**
@@ -84,7 +84,7 @@ Updating documentation is essential! Ensure new features or major updates are re
 
 ### Need Help with Documentation?
 
-Check out [this section](./#-contributing) or ask in [community discussions](https://github.com/Hunterdii/Smart-AI-Resume-Analyzer/discussions).
+Check out [this section](./#-contributing) or ask in [community discussions](https://github.com/Lahari Jogi/CareerBoost-AI/discussions).
 
 
 
@@ -104,6 +104,6 @@ Check out [this section](./#-contributing) or ask in [community discussions](htt
 
 
 
-Thank you for contributing to **Smart Resume Analyzer AI**! Your effort helps make resume analysis smarter and more efficient.
+Thank you for contributing to **Smart AI Resume Assistant AI**! Your effort helps make resume analysis smarter and more efficient.
 
-[![Join the discussion](https://img.shields.io/badge/Join-Discussion-blue)](https://github.com/Hunterdii/Smart-AI-Resume-Analyzer/discussions)
+[![Join the discussion](https://img.shields.io/badge/Join-Discussion-blue)](https://github.com/Lahari Jogi/CareerBoost-AI/discussions)

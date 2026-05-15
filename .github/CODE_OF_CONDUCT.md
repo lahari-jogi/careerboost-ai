@@ -5,7 +5,7 @@ Welcome to the **Smart CareerBoost AI** repository! We're thrilled to have you c
 <div align="center">
   
 [![Community](https://img.shields.io/badge/Community-Welcoming-brightgreen?style=for-the-badge)](https://discord.com/invite/dy4gAhng)  
-[![Join the discussion](https://img.shields.io/badge/Join-Discussion-blue?style=for-the-badge&logo=Discussions)](https://github.com/Hunterdii/Smart-AI-Resume-Analyzer/discussions)
+[![Join the discussion](https://img.shields.io/badge/Join-Discussion-blue?style=for-the-badge&logo=Discussions)](https://github.com/lahari-jogi/Smart-AI-Resume-Analyzer/discussions)
 </div>
 
 

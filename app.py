@@ -1,5 +1,5 @@
 ﻿"""
-Smart Resume AI - Main Application
+CareerBoost AI - Main Application
 """
 import time
 from PIL import Image
@@ -39,7 +39,7 @@ import datetime
 
 # Set page config at the very beginning
 st.set_page_config(
-    page_title="Smart Resume AI",
+    page_title="CareerBoost AI",
     page_icon="🚀",
     layout="wide"
 )
@@ -80,7 +80,7 @@ class ResumeApp:
 
         self.pages = {
             "🏠 HOME": self.render_home,
-            "🔍 RESUME ANALYZER": self.render_analyzer,
+            "🔍 AI Resume Assistant": self.render_analyzer,
             "📝 RESUME BUILDER": self.render_builder,
             "📊 DASHBOARD": self.render_dashboard,
             "🎯 JOB SEARCH": self.render_job_search,
@@ -466,28 +466,38 @@ class ResumeApp:
     
     def add_footer(self):
         st.markdown("""
-                    <div style="
-                    margin-top:120px;
-                    padding:40px;
-                    text-align:center;
-                    border-top:1px solid #333;
-                    background-color:#0E1117;
-                    ">
-                    <h2 style="color:#00C9A7;">
-                    CareerBoost AI
-                    </h2>
+<div style='text-align:center; padding:20px;'>
 
-                 <p style="color:gray; font-size:16px;">
-                  AI-Powered Resume Analysis Platform
-                 </p>
+<h3 style='color:#00C9A7;'>CareerBoost AI</h3>
 
-                 <p style="color:#888; font-size:14px;">
-                 Powered by Streamlit and AI Technology |
-                 Developed by Lahari Jogi
-                 </p>
+<p style='color:gray;'>
+AI-Powered Resume Analysis Platform
+</p>
 
-                 </div>
-                 """, unsafe_allow_html=True)
+<p>
+👩‍💻 Developed by <b>Lahari Jogi</b>
+</p>
+
+<p>
+🔗 GitHub:
+<a href="https://github.com/lahari-jogi" target="_blank">
+github.com/lahari-jogi
+</a>
+</p>
+
+<p>
+💼 LinkedIn:
+<a href="https://www.linkedin.com/in/lahari-jogi-8a8a66358/" target="_blank">
+linkedin.com/in/YOUR-LINKEDIN-ID
+</a>
+</p>
+
+<p>
+📧 Email: laharijogi22@gmail.com
+</p>
+
+</div>
+""", unsafe_allow_html=True)
 
         
     
@@ -541,7 +551,7 @@ class ResumeApp:
         """Render the dashboard page"""
         self.dashboard_manager.render_dashboard()
 
-        st.toast("Check out these repositories: [Awesome Hacking](https://github.com/Hunterdii/Awesome-Hacking)", icon="ℹ️")
+        st.toast("Check out these repositories: [Awesome Hacking](https://github.com/lahari-jogi/Awesome-Hacking)", icon="ℹ️")
 
 
     def render_empty_state(self, icon, message):
@@ -995,7 +1005,7 @@ class ResumeApp:
                 print(f"Full traceback: {traceback.format_exc()}")
                 st.error(f"❌ Error preparing resume data: {str(e)}")
 
-        st.toast("Check out these repositories: [30-Days-Of-Rust](https://github.com/Hunterdii/30-Days-Of-Rust)", icon="ℹ️")
+        st.toast("Check out these repositories: [30-Days-Of-Rust](https://github.com/lahari-jogi/30-Days-Of-Rust)", icon="ℹ️")
 
     def render_about(self):
         """Render the about page"""
@@ -1150,7 +1160,7 @@ class ResumeApp:
         # Hero Section
         st.markdown("""
             <div class="hero-section">
-                <h1 class="hero-title">About Smart Resume AI</h1>
+                <h1 class="hero-title">About CareerBoost AI</h1>
                 <p class="hero-subtitle">A powerful AI-driven platform for optimizing your resume</p>
             </div>
         """, unsafe_allow_html=True)
@@ -1158,26 +1168,26 @@ class ResumeApp:
         # Profile Section
         st.markdown(f"""
             <div class="profile-section">
-                <img src="{image_base64 if image_base64 else 'https://avatars.githubusercontent.com/Hunterdii'}"
-                     alt="Het Patel"
+                <img src="{image_base64 if image_base64 else 'https://avatars.githubusercontent.com/lahari-jogi'}"
+                     alt="Lahari Jogi"
                      class="profile-image"
-                     onerror="this.onerror=null; this.src='https://avatars.githubusercontent.com/Hunterdii';">
-                <h2 class="profile-name">Het Patel (Hunterdii)</h2>
+                     onerror="this.onerror=null; this.src='https://avatars.githubusercontent.com/lahari-jogi';">
+                <h2 class="profile-name">Lahari Jogi (lahari-jogi)</h2>
                 <p class="profile-title">Full Stack Developer & AI/ML Enthusiast</p>
                 <div class="social-links">
-                    <a href="https://github.com/Hunterdii" class="social-link" target="_blank">
+                    <a href="https://github.com/lahari-jogi" class="social-link" target="_blank">
                         <i class="fab fa-github"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/patel-hetkumar-sandipbhai-8b110525a/" class="social-link" target="_blank">
+                    <a href="https://www.linkedin.com/in/lahari-jogi-8a8a66358/" class="social-link" target="_blank">
                         <i class="fab fa-linkedin"></i>
                     </a>
-                    <a href="mailto:hunterdii9879@gmail.com" class="social-link" target="_blank">
+                    <a href="mailto:laharijogi22@gmail.com" class="social-link" target="_blank">
                         <i class="fas fa-envelope"></i>
                     </a>
                 </div>
                 <p class="bio-text">
                     Hello! I'm a passionate Full Stack Developer with expertise in AI and Machine Learning.
-                    I created Smart Resume AI to revolutionize how job seekers approach their career journey.
+                    I created CareerBoost AI to revolutionize how job seekers approach their career journey.
                     With my background in both software development and AI, I've designed this platform to
                     provide intelligent, data-driven insights for resume optimization.
                 </p>
@@ -1193,7 +1203,7 @@ class ResumeApp:
                 <i class="fas fa-lightbulb vision-icon"></i>
                 <h2 class="vision-title">Our Vision</h2>
                 <p class="vision-text">
-                    "Smart Resume AI represents my vision of democratizing career advancement through technology.
+                    "CareerBoost AI represents my vision of democratizing career advancement through technology.
                     By combining cutting-edge AI with intuitive design, this platform empowers job seekers at
                     every career stage to showcase their true potential and stand out in today's competitive job market."
                 </p>
@@ -1233,15 +1243,15 @@ class ResumeApp:
             </div>
         """, unsafe_allow_html=True)
 
-        st.toast("Check out these repositories: [Iriswise](https://github.com/Hunterdii/Iriswise)", icon="ℹ️")
+        st.toast("Check out these repositories: [Iriswise](https://github.com/lahari-jogi/Iriswise)", icon="ℹ️")
 
     def render_analyzer(self):
-        """Render the resume analyzer page"""
+        """Render the AI Resume Assistant page"""
         apply_modern_styles()
 
         # Page Header
         page_header(
-            "Resume Analyzer",
+            "AI Resume Assistant",
             "Get instant AI-powered feedback to optimize your resume"
         )
 
@@ -2792,7 +2802,7 @@ class ResumeApp:
                             import traceback as tb
                             st.code(tb.format_exc())
 
-        st.toast("Check out these repositories: [Awesome Java](https://github.com/Hunterdii/Awesome-Java)", icon="ℹ️")
+        st.toast("Check out these repositories: [Awesome Java](https://github.com/lahari-jogi/Awesome-Java)", icon="ℹ️")
 
 
     def render_home(self):
@@ -2800,7 +2810,7 @@ class ResumeApp:
         
         # Hero Section
         hero_section(
-            "Smart Resume AI",
+            "CareerBoost AI",
             "Transform your career with AI-powered resume analysis and building. Get personalized insights and create professional resumes that stand out."
         )
         
@@ -2827,7 +2837,7 @@ class ResumeApp:
         
         st.markdown('</div>', unsafe_allow_html=True)
         
-        st.toast("Check out these repositories: [AI-Nexus(AI/ML)](https://github.com/Hunterdii/AI-Nexus)", icon="ℹ️")
+        st.toast("Check out these repositories: [AI-Nexus(AI/ML)](https://github.com/lahari-jogi/AI-Nexus)", icon="ℹ️")
 
         # Call-to-Action with Streamlit navigation
         col1, col2, col3 = st.columns([1, 1, 1])
@@ -2836,7 +2846,7 @@ class ResumeApp:
                         help="Click to start analyzing your resume",
                         type="primary",
                         width='stretch'):
-                cleaned_name = "🔍 RESUME ANALYZER".lower().replace(" ", "_").replace("🔍", "").strip()
+                cleaned_name = "🔍 AI Resume Assistant".lower().replace(" ", "_").replace("🔍", "").strip()
                 st.session_state.page = cleaned_name
                 st.rerun()
        
@@ -2845,7 +2855,7 @@ class ResumeApp:
         """Render the job search page"""
         render_job_search()
 
-        st.toast("Check out these repositories: [GeeksforGeeks-POTD](https://github.com/Hunterdii/GeeksforGeeks-POTD)", icon="ℹ️")
+        st.toast("Check out these repositories: [GeeksforGeeks-POTD](https://github.com/lahari-jogi/GeeksforGeeks-POTD)", icon="ℹ️")
 
 
     def render_feedback_page(self):
@@ -2870,38 +2880,10 @@ class ResumeApp:
         with stats_tab:
             feedback_manager.render_feedback_stats()
 
-        st.toast("Check out these repositories: [TryHackMe Free Rooms](https://github.com/Hunterdii/tryhackme-free-rooms)", icon="ℹ️")
+        st.toast("Check out these repositories: [TryHackMe Free Rooms](https://github.com/lahari-jogi/tryhackme-free-rooms)", icon="ℹ️")
 
 
-    def show_repo_notification(self):
-        message = """
-<div style="background-color: #1e1e1e; border-radius: 10px; border: 1px solid #4b6cb7; padding: 10px; margin: 10px 0; color: white;">
-    <div style="margin-bottom: 10px;">Check out these other repositories:</div>
-    <div style="margin-bottom: 5px;"><b>Hacking Resources:</b></div>
-    <ul style="margin-top: 0; padding-left: 20px;">
-        <li><a href="https://github.com/Hunterdii/tryhackme-free-rooms" target="_blank" style="color: #4CAF50;">TryHackMe Free Rooms</a></li>
-        <li><a href="https://github.com/Hunterdii/Awesome-Hacking" target="_blank" style="color: #4CAF50;">Awesome Hacking</a></li>
-    </ul>
-    <div style="margin-bottom: 5px;"><b>Programming Languages:</b></div>
-    <ul style="margin-top: 0; padding-left: 20px;">
-        <li><a href="https://github.com/Hunterdii/Awesome-Java" target="_blank" style="color: #4CAF50;">Awesome Java</a></li>
-        <li><a href="https://github.com/Hunterdii/30-Days-Of-Rust" target="_blank" style="color: #4CAF50;">30 Days Of Rust</a></li>
-    </ul>
-    <div style="margin-bottom: 5px;"><b>Data Structures & Algorithms:</b></div>
-    <ul style="margin-top: 0; padding-left: 20px;">
-        <li><a href="https://github.com/Hunterdii/GeeksforGeeks-POTD" target="_blank" style="color: #4CAF50;">GeeksforGeeks POTD</a></li>
-        <li><a href="https://github.com/Hunterdii/Leetcode-POTD" target="_blank" style="color: #4CAF50;">Leetcode POTD</a></li>
-    </ul>
-    <div style="margin-bottom: 5px;"><b>AI/ML Projects:</b></div>
-    <ul style="margin-top: 0; padding-left: 20px;">
-        <li><a href="https://github.com/Hunterdii/AI-Nexus" target="_blank" style="color: #4CAF50;">AI Nexus</a></li>
-    </ul>
-    <div style="margin-top: 10px;">If you find this project helpful, please consider ⭐ starring the repo!</div>
-</div>
-"""
-        st.sidebar.markdown(message, unsafe_allow_html=True)
-
-
+   
     def main(self):
         """Main application entry point"""
         self.apply_global_styles()
@@ -2909,7 +2891,7 @@ class ResumeApp:
         # Admin login/logout in sidebar
         with st.sidebar:
             st_lottie(self.load_lottie_url("https://assets5.lottiefiles.com/packages/lf20_xyadoh9h.json"), height=200, key="sidebar_animation")
-            st.title("Smart Resume AI")
+            st.title("CareerBoost AI")
             st.markdown("---")
             
             # Navigation buttons
@@ -2952,8 +2934,7 @@ class ResumeApp:
                             except Exception as e:
                                 st.error(f"Error during login: {str(e)}")
         
-            # Display the repository notification in the sidebar
-            self.show_repo_notification()
+           
 
         # Force home page on first load
         if 'initial_load' not in st.session_state:
