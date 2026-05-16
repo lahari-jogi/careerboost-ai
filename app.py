@@ -3,7 +3,7 @@ CareerBoost AI - Main Application
 """
 import time
 from PIL import Image
-from jobs.job_search import render_job_search
+#from jobs.job_search import render_job_search
 from datetime import datetime
 from ui_components import (
     apply_modern_styles, hero_section, feature_card, about_section,
@@ -2837,12 +2837,9 @@ linkedin.com/in/YOUR-LINKEDIN-ID
        
 
     def render_job_search(self):
-        """Render the job search page"""
-        render_job_search()
+         """Render the job search page"""
 
-        st.toast("Check out these repositories: [GeeksforGeeks-POTD](https://github.com/lahari-jogi/GeeksforGeeks-POTD)", icon="ℹ️")
-
-
+         st.warning("Job search feature is temporarily unavailable.")
     def render_feedback_page(self):
         """Render the feedback page"""
         apply_modern_styles()
