@@ -1409,9 +1409,7 @@ linkedin.com/in/YOUR-LINKEDIN-ID
 
                         # Show results based on document type
                         if analysis.get('document_type') != 'resume':
-                            st.error(
-    f"⚠️ This appears to be a {
-        analysis['document_type']} document, not a resume!")
+                            st.error(f"⚠️ This appears to be a {analysis['document_type']} document, not a resume!")
                             st.warning(
                                 "Please upload a proper resume for ATS analysis.")
                             return
@@ -1497,10 +1495,8 @@ linkedin.com/in/YOUR-LINKEDIN-ID
                             <h2>Format Analysis</h2>
                         """, unsafe_allow_html=True)
 
-                        st.metric("Format Score",
-                                  f"{int(analysis.get('format_score', 0))}%")
-                        st.metric("Section Score",
-                                  f"{int(analysis.get('section_score', 0))}%")
+                        st.metric("Format Score",f"{int(analysis.get('format_score', 0))}%")
+                        st.metric("Section Score",f"{int(analysis.get('section_score', 0))}%")
 
                         st.markdown("</div>", unsafe_allow_html=True)
 
@@ -1522,8 +1518,7 @@ linkedin.com/in/YOUR-LINKEDIN-ID
                                     st.markdown(
     f"<li style='margin-bottom: 8px;'>✓ {suggestion}</li>",
      unsafe_allow_html=True)
-                                st.markdown(
-    "</ul></div>", unsafe_allow_html=True)
+                                st.markdown("/ul></div>", unsafe_allow_html=True)
 
                             # Summary Section
                         if analysis.get('summary_suggestions'):
