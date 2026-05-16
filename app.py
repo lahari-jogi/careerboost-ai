@@ -83,7 +83,6 @@ class ResumeApp:
             "🔍 AI Resume Assistant": self.render_analyzer,
             "📝 RESUME BUILDER": self.render_builder,
             "📊 DASHBOARD": self.render_dashboard,
-            "🎯 JOB SEARCH": self.render_job_search,
             "💬 FEEDBACK": self.render_feedback_page,
             "ℹ️ ABOUT": self.render_about
         }
@@ -2836,10 +2835,7 @@ linkedin.com/in/YOUR-LINKEDIN-ID
                 st.rerun()
        
 
-    def render_job_search(self):
-         """Render the job search page"""
-
-         st.warning("Job search feature is temporarily unavailable.")
+   
     def render_feedback_page(self):
         """Render the feedback page"""
         apply_modern_styles()
